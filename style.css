@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+/*HEADER*/
+header{
+    height: 400px;
+    width: 100%;
+    background-image: url('./src/Motor3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+}
+header::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 241, 241, 0.281);
+    /* background-image: linear-gradient(rgba(241, 241, 241, 0.281)90%, black); */
+}
+.nav-Header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    z-index: 2;
+    background-color: rgb(117, 117, 117);
+    /* border-bottom: 2px solid #ffff; */
+}
+.nav-Links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 1rem ;
+}
+.Logo-Nav{
+    width: 10%;
+}
+.Logo-Slide{
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+
+/*SERVICIOS*/
+#Servicios{
+    width: 100%;
+    margin: 5rem 0;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+h1 span{
+    color: #FFB800;
+}
+.service-article{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.img-service-icon{
+    height: 4rem; margin-right: 2rem;
+}
+
+
+/*OTROS SERVICIOS*/
+#OtrosServicios::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.281);
+    z-index: -1;
+    top: 0;
+}
+#OtrosServicios{
+    position: relative;
+    width: 100%;
+    background-image: url('./src/Mechanic5.jpg');
+    background-position: 30% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 5rem;
+    padding: 2rem 0;
+    z-index: 1;
+}
+.otrosServicios-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0;
+    /* color: #FFB800; */
+}
+.otrosServicios-articlesCont{
+    display: flex;
+}
+.otroServicios-article,.otrosServicios-contInfo,.OtrosServicios-LastCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.OtrosServicios-LastCont{
+    padding: 0 5rem;
+}
+.otrosServicios-contInfo{
+    padding: 0 5rem;
+    border-right: 10px solid #ffff;
+}
+.otrosServicios-contInfo img, .otroServicios-article img{
+    height: 6rem;
+}
+.otrosServicios-contInfo p, .otroServicios-article p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*UBICACION*/
+#Ubicacion{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.Ubiacion-InfoCont{
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+.Ubiacion-InfoCont iframe{
+    width: 900px;
+}
+.Ubiacion-InfoCont h2{
+    margin-top: 0;
+    color: #FFB800;
+    font-size: 2.5rem;
+}
+.Ubiacion-InfoCont span{
+    font-size: 2.5rem;
+}
+.Ubiacion-InfoCont p{
+    font-size: 2rem;
+}
+
+
+/*CONTACTO*/
+#Contacto{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+#Contacto h2{
+    font-size: 2.5rem;
+}
+#Contacto section{
+    display: flex;
+}
+.contacto-articleForm,.contacto-articleInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+}
+
+input,.contacto-textarea{
+    color:#ffff;
+    font-size: 1.5rem;
+    width: 90%;
+}
+input::placeholder,.contacto-textarea::placeholder{
+    color:#FFB800;
+    font-family: 'Roboto', sans-serif;
+}
+.contato-inputGeneric,.contacto-textarea{
+    padding: 0.5% 1%;
+    background: none;
+    border: 2px solid white;
+    margin-bottom: 1rem;
+    outline: none;
+}
+input[type='submit']{
+    width: 92%;
+    color: black; 
+    background-color: #FFB800;
+    border: none;
+    font-weight: bold;
+}
+.contacto-articleInfo p{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 3rem 0;
+}

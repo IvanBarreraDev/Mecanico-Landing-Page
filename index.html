@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Mecanico</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-Header">
+            <a href=""><img class="Logo-Nav" src="./src/Logo.png" alt="LogoMecanico"></a>
+            <nav class="nav-Links">
+                <a href="#Servicios">Servicos</a>
+                <a href="#OtrosServicios">Ubicación</a>
+                <a href="#Ubicacion">Contacto</a>
+            </nav>
+        </nav>
+        <img class="Logo-Slide" src="./src/Logo.png" alt="LogoMecanico">
+    </header>
+    <main>
+        <!--Servicios-->
+        <section id="Servicios">
+            <h1>Servicio Técnico <br> <span>Automotriz</span></h1>
+            <div>
+                <article class="service-article">
+                    <img class="img-service-icon" src="./src/Icon Motor.png" alt="Motor">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis corrupti placeat, laborum cum ipsum ea ratione expedita. Minima, officiis libero!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eum enim quibusdam officia nam sit, rem, voluptatibus ut ratione earum laboriosam, in ipsum libero illum vel corrupti. Veritatis, excepturi nihil.
+                    </p>
+                </article>
+                <article class="service-article">
+                    <img class="img-service-icon" src="./src/Icon Oil.png" alt="Aceite">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorem. Incidunt nihil eum animi sunt, dicta alias laudantium blanditiis tempore.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed inventore enim cupiditate perspiciatis distinctio sit veritatis assumenda blanditiis asperiores, ipsam nam velit reiciendis alias dolore iusto repudiandae voluptatem quis aliquam?
+                    </p>
+                </article>
+                <article class="service-article">
+                    <img class="img-service-icon" src="./src/Icon Temperaturepng.png" alt="Temperatura">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi porro doloribus sint voluptatem numquam quae praesentium illum tenetur ab?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolorum tenetur iusto a perferendis amet minus repellat deleniti voluptatem expedita laborum animi autem quas unde, dolores quidem vitae accusamus illo.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <!--Otros Servicios-->
+        <section id="OtrosServicios">
+            <div class="otrosServicios-articlesCont">
+                <article class="otroServicios-article">
+                    <h2 class="otrosServicios-title">Aire</h2>
+                    <div class="otrosServicios-contInfo">
+                        <img src="./src/Icon Ventilacion.png" alt="Ventilador">
+                        <p>Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+                    </div>
+                </article>
+                <!-- <div class="otrosServicios-separador"></div> -->
+                <article class="otroServicios-article">
+                    <h2 class="otrosServicios-title">Balanceo</h2>
+                    <div class="otrosServicios-contInfo">
+                        <img  src="./src/Icon Ejes.png" alt="Ejes">
+                        <p>Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+                    </div>
+                </article>
+                <!-- <div class="otrosServicios-separador"></div> -->
+                <article class="otroServicios-article">
+                    <h2 class="otrosServicios-title">Cambios</h2>
+                    <div class="OtrosServicios-LastCont">
+                        <img  src="./src/Icon CajaDeCambio.png" alt="CajaDeCambio">
+                        <p>Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+                   </div>
+                </article>
+            </div>
+        </section>
+        <!--Ubicación-->
+        <section id="Ubicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13132.957118056993!2d-58.402547836303725!3d-34.62339306570579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbbac0d4634b%3A0x54a3a4cbbb7f2638!2sTaller%20Mec%C3%A1nico%3A%20Electromec%C3%A1nica%20Fern%C3%A1ndez%20Llorca!5e0!3m2!1ses!2sar!4v1644555749679!5m2!1ses!2sar"
+                width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe><!--Map-->
+            <div class="Ubiacion-InfoCont">
+                <h2>Puerto Leonardo Palomo LIMA 65</h2>
+                <span>Horarios</span>
+                <p>
+                    Lunes a Viernes <br>
+                    AM 08:00 - 13:00 <br>
+                    PM 15:00 - 20:00 <br>
+                </p>
+            </div>
+        </section>
+        <!--Contacto-->
+        <section id="Contacto">
+            <h2>Contacto</h2>
+            <section>
+                <article class="contacto-articleForm">
+                    <form action="">
+                        <input class="contato-inputGeneric" placeholder="Nombre" type="text" name="" id="">
+                        <input class="contato-inputGeneric" placeholder="Teléfono" type="tel" name="" id="">
+                        <textarea class="contacto-textarea" placeholder="Mensaje" name="" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" name="" id="" value="Enviar">
+                    </form>
+                </article>
+                <article class="contacto-articleInfo">
+                    <p>
+                        <i class="bi bi-telephone-fill"></i>
+                        202-555-0135
+                    </p>
+                    <p>
+                        <i class="bi bi-envelope-fill"></i>
+                        mecanico@gmail.com
+                    </p>
+                    <p>
+                        <i class="bi bi-facebook"></i>
+                        Mecanica Lima
+                    </p>
+                </article>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
